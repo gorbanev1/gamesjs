@@ -3,13 +3,29 @@ body {
 }
 
 #canvas1 {
-    position: absolute;
-    border: 0px solid wheat;
+    position: relative;
     width: 800px;
     height: 700px;
+}
+
+#container {
+    border: 10px solid wheat;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    position: absolute;
+    width: 800px;
+
+
+}
+
+#slider {
+    width: 100%;
+    color: white;
+}
+
+p {
+    color: aqua;
 }
 
 /* #canvas1 {
